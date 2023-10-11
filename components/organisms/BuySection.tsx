@@ -1,9 +1,8 @@
 import BillsIcon from "@/public/icons/BillsIcon";
 import GroceriesIcon from "@/public/icons/GroceriesIcon";
 import TicketsIcon from "@/public/icons/TicketsIcon";
-import React from "react";
+
 import BuyCard from "../molecules/BuyCard";
-import BuyCards from "../molecules/BuyCard";
 import BuyPhotoCard from "../molecules/BuyPhotoCard";
 
 function BuySection() {

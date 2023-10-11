@@ -1,5 +1,3 @@
-import React from "react";
-
 function BlueMockupDesign() {
   return (
     <div className="relative pt-4 mt-8 md:mt-0 lg:pt-0 w-full flex flex-col items-center lg:absolute lg:bottom-[440px] lg:-right-[23%] xl:-right-[26.5%] ">

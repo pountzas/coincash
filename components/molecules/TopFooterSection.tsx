@@ -5,7 +5,7 @@ function TopFooterSection() {
         <span className="text-white text-[32px] md:text-[40px] font-bold">
           Get started{" "}
         </span>
-        <span className="text-blue-600 text-[32px] md:text-[40px] font-bold">
+        <span className="text-[#0066FF] text-[32px] md:text-[40px] font-bold">
           today
         </span>
       </div>

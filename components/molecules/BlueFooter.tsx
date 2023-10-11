@@ -1,5 +1,3 @@
-import React from "react";
-
 function BlueFooter() {
   return (
     <div className="absolute bottom-[180px] lg:bottom-0 z-20 w-full max-w-[1440px] pt-20 ">
