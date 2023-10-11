@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 
-const LogoSmall = ({color='#06F'}) => {
+const LogoSmall = ({ color = "#06F" }) => {
   const Router = useRouter();
 
   return (

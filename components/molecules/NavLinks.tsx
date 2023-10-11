@@ -9,7 +9,12 @@ const NavLinks = () => {
     <div className=" inline-flex h-[54px] justify-start items-center">
       <ul className="hidden md:flex grow shrink basis-0 h-[54px] justify-end items-center gap-6">
         {navLinksData.map((link) => (
-          <NavbarLink key={link.name} title={link.name} href={link.url} type='nav' />
+          <NavbarLink
+            key={link.name}
+            title={link.name}
+            href={link.url}
+            type="nav"
+          />
         ))}
         <NavButton title="Get the app" />
       </ul>

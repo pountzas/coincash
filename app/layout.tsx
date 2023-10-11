@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Poppins, Inter } from "next/font/google";
+import { Poppins } from "next/font/google";
 import Navbar from "@/components/organisms/Navbar";
 import Footer from "@/components/organisms/Footer";
 
@@ -25,7 +25,11 @@ export default function RootLayout({
       lang="en"
       className="flex-col items-center justify-center min-h-screen max-w-[1440px] m-auto"
     >
-      <body className={poppins.className && "flex-col items-center justify-center w-full "}>
+      <body
+        className={
+          poppins.className && "flex-col items-center justify-center w-full "
+        }
+      >
         <Navbar />
 
         {children}
